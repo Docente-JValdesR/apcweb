@@ -1,0 +1,29 @@
+.facebook {
+  color: #0574e7;
+  font-size: 25px;
+}
+
+.instagram {
+  color: #e74861;
+  font-size: 25px;
+}
+
+.twitter {
+  color: #1d9bf0;
+  font-size: 25px;
+}
+
+.nav-link {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1D70B8;
+}
+
+h1, h5 {
+  font-weight: bold;
+  color: #1D70B8;
+
+}
+.card {
+  margin: 10px;
+}
