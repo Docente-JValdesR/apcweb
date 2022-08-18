@@ -1,18 +1,12 @@
-import Banner from "./components/Banner";
-import Navbar from "./components/Navbar";
-import Carousel from "./components/Carousel";
-import Noticias from "./components/Noticias";
-import ContacForm from "./components/ContactForm";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/home";
+import LoginForm from "./components/loginForm";
 
 export default function App() {
   return (
-    <div>
-      <Banner />
-      <Navbar />
-      <Carousel />
-      <Noticias />
-      <ContacForm />
-      </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="login" element={<LoginForm />} />
+    </Routes>
   );
 }
-

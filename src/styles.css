@@ -19,7 +19,7 @@
   color: #1D70B8;
 }
 
-h1, h5 {
+h1, h5, .form-text, .form-label {
   font-weight: bold;
   color: #1D70B8;
 
@@ -27,3 +27,8 @@ h1, h5 {
 .card {
   margin: 10px;
 }
+
+.login {
+  background: url(./assets/login.jpg);
+}
+
